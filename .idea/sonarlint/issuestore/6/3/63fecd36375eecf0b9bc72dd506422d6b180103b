@@ -1,0 +1,18 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(Š£Ä±úÿÿÿÿ8È´Î€³1
+Q
+java:S3740"/Provide the parametrized type for this generic.(Š£Ä±úÿÿÿÿ8É´Î€³1
+Q
+java:S3740"/Provide the parametrized type for this generic.(¢»úáûÿÿÿÿ8ÍÜÎ€³1
+N
+java:S11537"1Directly append the argument of String.valueOf().(°ñÁÞ8Ÿ³Ç€³1
+N
+java:S1153<"1Directly append the argument of String.valueOf().(´ÉÛ®8Ÿ³Ç€³1
+M
+java:S1153="1Directly append the argument of String.valueOf().(“©ãR8 ³Ç€³1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Ë™ÿüÿÿÿÿ
+q	java:S116"PRename this field "_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ž˜Äúÿÿÿÿ8¥³Ç€³1
+t	java:S116"SRename this field "_rentals" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š£Ä±úÿÿÿÿ8¥³Ç€³1
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Š£Ä±úÿÿÿÿ8Î´Î€³1
