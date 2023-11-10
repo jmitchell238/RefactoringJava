@@ -1,4 +1,4 @@
-package org.jmitchell238.Chapter1;
+package org.jmitchell238.chapter1;
 
 public class Movie {
   public static final int CHILDRENS = 2;
