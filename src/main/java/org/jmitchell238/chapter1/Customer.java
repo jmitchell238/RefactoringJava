@@ -1,4 +1,4 @@
-package org.jmitchell238.Chapter1;
+package org.jmitchell238.chapter1;
 
 import java.util.Enumeration;
 import java.util.Vector;
