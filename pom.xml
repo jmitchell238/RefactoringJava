@@ -57,6 +57,13 @@
       <version>1.3</version> <!-- or the latest version available -->
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.github.stefanbirkner</groupId>
+      <artifactId>system-rules</artifactId>
+      <version>1.19.0</version> <!-- Check for the latest version on Maven Central -->
+      <scope>test</scope>
+    </dependency>
+
 
 
     <!--    Lombok Dependencies-->

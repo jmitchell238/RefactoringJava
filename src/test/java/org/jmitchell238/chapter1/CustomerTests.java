@@ -30,8 +30,10 @@ class CustomerTests {
   @Test
   void statement_calledWithNoRentals_printsCorrectStatement() {
     // Act & Assert
-    assertThat(customer.statement(), is("Rental Record for John Doe\n" + "Amount owed is 0.0\n"
-        + "You earned 0 frequent renter points"));
+    assertThat(customer.statement(), is("""
+        Rental Record for John Doe
+        Amount owed is 0.0
+        You earned 0 frequent renter points"""));
   }
 
   @Test
@@ -40,8 +42,11 @@ class CustomerTests {
     customer.addRental(newReleaseRental);
 
     // Act & Assert
-    assertThat(customer.statement(), is("Rental Record for John Doe\n" + "\tNew Release Movie\t3.0\n"
-        + "Amount owed is 3.0\n" + "You earned 1 frequent renter points"));
+    assertThat(customer.statement(), is("""
+        Rental Record for John Doe
+        \tNew Release Movie\t3.0
+        Amount owed is 3.0
+        You earned 1 frequent renter points"""));
   }
 
   @Test
@@ -50,8 +55,11 @@ class CustomerTests {
     customer.addRental(new Rental(newReleaseMovie, 3));
 
     // Act & Assert
-    assertThat(customer.statement(), is("Rental Record for John Doe\n" + "\tNew Release Movie\t9.0\n"
-        + "Amount owed is 9.0\n" + "You earned 2 frequent renter points"));
+    assertThat(customer.statement(), is("""
+        Rental Record for John Doe
+        \tNew Release Movie\t9.0
+        Amount owed is 9.0
+        You earned 2 frequent renter points"""));
   }
 
   @Test
@@ -63,8 +71,13 @@ class CustomerTests {
 
     // Act & Assert
     assertThat(customer.statement(),
-        is("Rental Record for John Doe\n" + "\tNew Release Movie\t3.0\n" + "\tChildren's Movie\t1.5\n"
-            + "\tRegular Movie\t2.0\n" + "Amount owed is 6.5\n" + "You earned 3 frequent renter points"));
+        is("""
+            Rental Record for John Doe
+            \tNew Release Movie\t3.0
+            \tChildren's Movie\t1.5
+            \tRegular Movie\t2.0
+            Amount owed is 6.5
+            You earned 3 frequent renter points"""));
   }
 
   @Test
@@ -76,7 +89,26 @@ class CustomerTests {
 
     // Act & Assert
     assertThat(customer.statement(),
-        is("Rental Record for John Doe\n" + "\tNew Release Movie\t9.0\n" + "\tChildren's Movie\t3.0\n"
-            + "\tRegular Movie\t2.0\n" + "Amount owed is 14.0\n" + "You earned 4 frequent renter points"));
+        is("""
+            Rental Record for John Doe
+            \tNew Release Movie\t9.0
+            \tChildren's Movie\t3.0
+            \tRegular Movie\t2.0
+            Amount owed is 14.0
+            You earned 4 frequent renter points"""));
+  }
+
+  @Test
+  void statement_calledWithRegularRentalForMoreThanTwoDays_printsCorrectStatement() {
+    // Arrange
+    customer.addRental(new Rental(regularMovie, 3));
+
+    // Act & Assert
+    assertThat(customer.statement(),
+        is("""
+            Rental Record for John Doe
+            \tRegular Movie\t3.5
+            Amount owed is 3.5
+            You earned 1 frequent renter points"""));
   }
 }

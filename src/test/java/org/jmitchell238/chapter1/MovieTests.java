@@ -32,4 +32,18 @@ class MovieTests {
     // Assert
     assertThat(actualPriceCode, equalTo(expectedPriceCode));
   }
+
+  // Test the getTitle method
+  @Test
+  void getTitle_called_returnsTitle() {
+    // Arrange
+    Movie movie = new Movie("Movie Title", 1);
+    String expectedTitle = "Movie Title";
+
+    // Act
+    String actualTitle = movie.getTitle();
+
+    // Assert
+    assertThat(actualTitle, equalTo(expectedTitle));
+  }
 }
