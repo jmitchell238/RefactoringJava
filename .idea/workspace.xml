@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="095015c1-644e-4336-b1ff-64cae1cab3e4" name="Changes" comment="Add config files and update gitignore for a consistent development environment&#10;&#10;This commit introduces the '.idea/uiDesigner.xml' and '.idea/workspace.xml' configuration files, which are vital for maintaining consistent IntelliJ IDEA settings within the team. This setup helps avoid IDE-specific issues. The '.gitignore' rules are extended to include Java, Maven, Gradle, Eclipse, and IntelliJ generated files for better codebase cleanliness.">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="jmm/UpdateGitIgnore" />
+                    <option name="lastUsedInstant" value="1700599416" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1700598827" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="jmm/AddChapter1Testing" />
+                    <option name="lastUsedInstant" value="1699632271" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="InitialCommit" />
+                    <option name="lastUsedInstant" value="1697320394" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2WlsHMXj2uZHFIyAW2dQNBs6qKj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "jmm/UpdateGitIgnore",
+    "last_opened_file_path": "/Users/jamesm.mitchell/james-workspace/RefactoringJava/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.jmitchell238" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.jmitchell238.Chapter1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerTests.statement_calledWithRegularRentalForMoreThanTwoDays_printsCorrectStatement">
+    <configuration name="CustomerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RefactoringJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jmitchell238.chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jmitchell238.chapter1" />
+      <option name="MAIN_CLASS_NAME" value="org.jmitchell238.chapter1.CustomerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTests.statement_calledWithRegularRentalForMoreThanTwoDays_printsCorrectStatement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RefactoringJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jmitchell238.chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jmitchell238.chapter1" />
+      <option name="MAIN_CLASS_NAME" value="org.jmitchell238.chapter1.CustomerTests" />
+      <option name="METHOD_NAME" value="statement_calledWithRegularRentalForMoreThanTwoDays_printsCorrectStatement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RefactoringJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jmitchell238.chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jmitchell238.chapter1" />
+      <option name="MAIN_CLASS_NAME" value="org.jmitchell238.chapter1.MovieTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in RefactoringJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RefactoringJava" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jmitchell238 in RefactoringJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RefactoringJava" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/org/jmitchell238" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerTests.statement_calledWithRegularRentalForMoreThanTwoDays_printsCorrectStatement" />
+        <item itemvalue="JUnit.java in RefactoringJava" />
+        <item itemvalue="JUnit.MovieTests" />
+        <item itemvalue="JUnit.CustomerTests" />
+        <item itemvalue="JUnit.jmitchell238 in RefactoringJava" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="095015c1-644e-4336-b1ff-64cae1cab3e4" name="Changes" comment="" />
+      <created>1697318411437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697318411437</updated>
+      <workItem from="1697318413233" duration="1036000" />
+      <workItem from="1697320257662" duration="996000" />
+      <workItem from="1697459002183" duration="1197000" />
+      <workItem from="1699548526294" duration="9599000" />
+      <workItem from="1699640458528" duration="3665000" />
+      <workItem from="1700327175591" duration="794000" />
+      <workItem from="1700487289279" duration="80000" />
+      <workItem from="1700499790499" duration="5000" />
+      <workItem from="1700598622592" duration="854000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;Updated project configuration and added new functionality and tests&quot;&#10;&#10;This commit includes various changes to different parts of the project:&#10;1. Cleanup: Two files were removed from the .idea folder associated with SonarLint. These were possibly related to deprecated functionality or cleanup for overall project health.&#10;2. Feature Addition: The Main.java file now contains logic for a movie rental store, likely an enhancement to provide more functionality.&#10;3. Dependencies update: Possible dependency version updates or addition of new libraries for project requirements in pom.xml.&#10;4. Tests introduction: Introduction of new test classes `CustomerTests`, `MovieTests`, `RentalTests`, aiming to ensure the correctness of new functionality.  &#10;&#10;These changes provide enhanced functionality and a robust testing regimen aimed at preventing regression.">
+      <option name="closed" value="true" />
+      <created>1699633421280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699633421280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;Added SonarLint to .gitignore and enabled GitToolbox configurations&quot;&#10;&#10;In this commit, we are improving the development environment configuration in two ways:&#10;1. Update: The `.gitignore` file has been updated to avoid pushing unwanted SonarLint files. The files `.idea/sonarlint` were added to the ignore list to prevent adding unnecessary clutter to the repository.&#10;2. Addition: A new config file, `git_toolbox_prj.xml`, has been introduced with settings to override the GitToolBoxProject related to commit message validation. This helps to ensure the consistency of commit messages by validating their formats.&#10;&#10;These changes aim to streamline the development process and maintain a cleaner codebase.">
+      <option name="closed" value="true" />
+      <created>1699633499020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699633499020</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;Remove redundant code and add testing dependencies&quot;&#10;&#10;The main change in this commit is the removal of unnecessary lines of code from our Main.java file. We have also made additions to our pom.xml dependencies for testing. The new dependency introduced is &quot;system-rules&quot; whose purpose is to enable tests to interact smoothly with system rules (like System.out). &#10;&#10;Moreover, we've introduced a new 'MainTests.java' class for better code maintenance. This test class is specifically created to test the Main class functionalities. We've also expanded the existing tests in 'MovieTests.java' and 'CustomerTests.java' for achieving higher test coverage. These modifications help to enhance the code reliability and maintainability.">
+      <option name="closed" value="true" />
+      <created>1700327371980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700327371980</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Updated project configuration and added new functionality and tests&quot;&#10;&#10;This commit includes various changes to different parts of the project:&#10;1. Cleanup: Two files were removed from the .idea folder associated with SonarLint. These were possibly related to deprecated functionality or cleanup for overall project health.&#10;2. Feature Addition: The Main.java file now contains logic for a movie rental store, likely an enhancement to provide more functionality.&#10;3. Dependencies update: Possible dependency version updates or addition of new libraries for project requirements in pom.xml.&#10;4. Tests introduction: Introduction of new test classes `CustomerTests`, `MovieTests`, `RentalTests`, aiming to ensure the correctness of new functionality.  &#10;&#10;These changes provide enhanced functionality and a robust testing regimen aimed at preventing regression." />
+    <MESSAGE value="&quot;Added SonarLint to .gitignore and enabled GitToolbox configurations&quot;&#10;&#10;In this commit, we are improving the development environment configuration in two ways:&#10;1. Update: The `.gitignore` file has been updated to avoid pushing unwanted SonarLint files. The files `.idea/sonarlint` were added to the ignore list to prevent adding unnecessary clutter to the repository.&#10;2. Addition: A new config file, `git_toolbox_prj.xml`, has been introduced with settings to override the GitToolBoxProject related to commit message validation. This helps to ensure the consistency of commit messages by validating their formats.&#10;&#10;These changes aim to streamline the development process and maintain a cleaner codebase." />
+    <MESSAGE value="&quot;Remove redundant code and add testing dependencies&quot;&#10;&#10;The main change in this commit is the removal of unnecessary lines of code from our Main.java file. We have also made additions to our pom.xml dependencies for testing. The new dependency introduced is &quot;system-rules&quot; whose purpose is to enable tests to interact smoothly with system rules (like System.out). &#10;&#10;Moreover, we've introduced a new 'MainTests.java' class for better code maintenance. This test class is specifically created to test the Main class functionalities. We've also expanded the existing tests in 'MovieTests.java' and 'CustomerTests.java' for achieving higher test coverage. These modifications help to enhance the code reliability and maintainability." />
+    <MESSAGE value="Add uiDesigner and workspace configuration files and update gitignore rules&#10;&#10;This commit introduces the new '.idea/uiDesigner.xml' and '.idea/workspace.xml' configuration files. These are crucial for maintaining proper IDE (IntelliJ IDEA) settings throughout the team. It ensures that there's a common environment setup for all team members and helps to prevent any IDE-specific issues from arising.&#10;&#10;In the '.gitignore' file within the '.idea' directory, an update was made to make it comprehensive, including rules for ignoring files generated by Java, Maven, Gradle Eclipse, and IntelliJ, preventing any unnecessary or auto-generated files from being committed.&#10;" />
+    <MESSAGE value="Add uiDesigner and workspace configuration files and update gitignore rules&#10;&#10;This commit introduces '.idea/uiDesigner.xml' and '.idea/workspace.xml' for sharing IntelliJ IDEA IDE-specific settings within the team. This ensures a consistent environment setup across all team members' setup. '.gitignore' was updated with rules for Java, Maven, Gradle, Eclipse, and IntelliJ generated files to prevent committing unnecessary files." />
+    <MESSAGE value="Add config files and update gitignore for a consistent development environment&#10;&#10;This commit introduces the '.idea/uiDesigner.xml' and '.idea/workspace.xml' configuration files, which are vital for maintaining consistent IntelliJ IDEA settings within the team. This setup helps avoid IDE-specific issues. The '.gitignore' rules are extended to include Java, Maven, Gradle, Eclipse, and IntelliJ generated files for better codebase cleanliness." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add config files and update gitignore for a consistent development environment&#10;&#10;This commit introduces the '.idea/uiDesigner.xml' and '.idea/workspace.xml' configuration files, which are vital for maintaining consistent IntelliJ IDEA settings within the team. This setup helps avoid IDE-specific issues. The '.gitignore' rules are extended to include Java, Maven, Gradle, Eclipse, and IntelliJ generated files for better codebase cleanliness." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RefactoringJava$MovieTests.ic" NAME="MovieTests Coverage Results" MODIFIED="1699642760117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.jmitchell238.chapter1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/RefactoringJava$CustomerTests_statement_calledWithRegularRentalForMoreThanTwoDays_printsCorrectStatement.ic" NAME="CustomerTests.statement_calledWithRegularRentalForMoreThanTwoDays_printsCorrectStatement Coverage Results" MODIFIED="1699642858444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.jmitchell238.chapter1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/RefactoringJava$CustomerTests.ic" NAME="CustomerTests Coverage Results" MODIFIED="1699642655493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.jmitchell238.chapter1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/RefactoringJava$java_in_RefactoringJava.ic" NAME="java in RefactoringJava Coverage Results" MODIFIED="1699642775888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
